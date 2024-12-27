@@ -83,6 +83,9 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+html {
+    scroll-behavior: smooth;
+}
 footer {
     background: #333;
     color: #fff;
