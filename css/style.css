@@ -107,7 +107,65 @@ html {
     background-color: #f9f9f9; /* Even lighter gray */
     padding: 50px 20px;
 }
+#projects {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
 
+#projects h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-card {
+    background-color: white;
+    width: 280px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project-card h3 {
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+.project-card p {
+    font-size: 1em;
+    color: #555;
+    margin-top: 10px;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #333;
+    background-color: #eaeaea;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.project-card a:hover {
+    background-color: #555;
+    color: white;
+}
 footer {
     background: linear-gradient(45deg, #333, #666);
     color: white;
