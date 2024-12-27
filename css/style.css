@@ -2,7 +2,8 @@ header {
     background-image: url('images/header-bg.jpg'); /* Your background image file */
     background-size: cover;
     background-position: center;
-    color: white; /* Ensures text is readable */
+    background: #333;
+    color: #fff;
     padding: 100px 0;
     text-align: center;
 }
