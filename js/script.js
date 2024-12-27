@@ -14,7 +14,15 @@ function loadFooter() {
         })
         .catch(error => console.error('Error loading footer:', error));
 }
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
 
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
 // Call the function to load the footer
 document.addEventListener("DOMContentLoaded", loadFooter);
 
