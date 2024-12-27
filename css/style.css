@@ -1,9 +1,8 @@
 header {
-    background-image: url('images/header-bg.jpg'); /* Your background image file */
+    background-image: url('images/header-bg.jpg');
     background-size: cover;
     background-position: center;
-    background: #333;
-    color: #fff;
+    color: white;
     padding: 100px 0;
     text-align: center;
 }
