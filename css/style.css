@@ -85,7 +85,7 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #555; /* Darker background on hover */
     border-radius: 5px; /* Rounded corners */
-    transform: scale(1.1); /* Slight zoom effect */
+    transform: scale(5); /* Slight zoom effect */
     transition: all 0.3s ease; /* Smooth transition */
 }
 html {
